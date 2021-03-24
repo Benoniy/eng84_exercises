@@ -21,6 +21,7 @@ Create program that calculates the year of birth.
 ### Acceptance Criteria: 
 * Program defines the variable `age` and `name`
 * Program prints the string "OMG <person>, you are <age> years old, so you were born in <year>"
+
 --------------------------------------------------------
 
 ## 02 - A Restaurant Waiter Helper program
@@ -85,6 +86,7 @@ Hint: loop, range, control flow
 ### Acceptance Criteria:
 * All tasks are complete
 * Code compiles without error
+
 ------------------------------------------------
 ## 05 - Functional Calculator
 Amazing you now know functions, lets make a functional calculator.
@@ -121,7 +123,8 @@ Hint: do one function at a time! And use my structure for the running the functi
 ### Acceptance Criteria:
 * All core functions done
 * Separation of concerns if followed
-* DRY code and functions
+* DRY code and functions  
+
 ----------------------------------------------
 ## 06 - Loops and lists
 Let's loop over some lists!
@@ -134,6 +137,6 @@ Let's loop over some lists!
 * Iterate over the list of values to find if the are even ### No clue what this is asking for
 
 ### Acceptance Criteria
-
 * All tasks are completed
+
 ---------------------------------------------------------------- 
