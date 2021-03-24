@@ -14,9 +14,14 @@ def print_menu():
 
 
 
+
+
 print_menu()
 print("\n")
 usr_input = ""
 while usr_input != "exit":
     usr_input = input("Please enter the number of the item you wish to add:\n")
+
+    if usr_input.isdigit():
+        order.append(int(usr_input))
 
