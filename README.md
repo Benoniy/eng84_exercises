@@ -113,9 +113,9 @@ def add_funtion(arg1, arg2):
 
 ```python
 #example
-print("Calling add() with 290 and 10, I expect 300 to be the result")
-print(add(290, 10) == 300)
-print('got:', add(290, 10))
+print("Calling add_funtion() with 290 and 10, I expect 300 to be the result")
+print(add_funtion(290, 10) == 300)
+print('got:', add_funtion(290, 10))
 ```
 
 Hint: do one function at a time! And use my structure for the running the functions
