@@ -113,12 +113,12 @@ def add_funtion(arg1, arg2):
 
 ```python
 #example
-print("Calling add_funtion() with 290 and 10, I expect 300 to be the result")
-print(add_funtion(290, 10) == 300)
-print('got:', add_funtion(290, 10))
+print("Calling add_funtion() with 10 and 30, I expect 40 to be the result")
+print(add_funtion(10, 30) == 40)
+print('got:', add_funtion(10, 30))
 ```
 
-Hint: do one function at a time! And use my structure for the running the functions
+Hint: do one function at a time and use my structure for the running the functions
 
 ### Acceptance Criteria:
 * All core functions done
