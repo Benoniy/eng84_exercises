@@ -7,4 +7,9 @@ menu = {1: {"name": "Burger", "price": 3.0},
 order = []
 
 
+def print_menu():
+    print("Menu:")
+    for item_no, content in menu.items():
+        print(f"{item_no}: {content['name']} £{content['price']}")
+
 
