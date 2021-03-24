@@ -13,7 +13,13 @@ def print_menu():
         print(f"{item_no}: {content['name']} £{content['price']}")
 
 
-
+def print_order():
+    total = 0
+    print("\nCurrent Order:")
+    for item in order:
+        print(f"{menu[item]['name']} £{menu[item]['price']}")
+        total += menu[item]['price']
+    print(f"Total - £{total}")
 
 
 print_menu()
@@ -25,3 +31,4 @@ while usr_input != "exit":
     if usr_input.isdigit():
         order.append(int(usr_input))
 
+    print_order()
