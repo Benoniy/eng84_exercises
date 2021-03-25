@@ -6,9 +6,6 @@ menu = {1: {"name": "Burger", "price": 3.0},
         3: {"name": "Chicken wings", "price": 4.0}
         }
 
-# A list that stored the customers ordered items
-order = []
-
 
 # This function prints the menu by extracting values from a dictionary
 def print_menu():
@@ -16,6 +13,9 @@ def print_menu():
     for item_no, content in menu.items():
         print(f"{item_no}: {content['name']} £{content['price']}")
 
+
+# A list that stored the customers ordered items
+order = []
 
 # This function prints orders by pulling the item numbers from the list
 # and using them to reference values in the menu dictionary
