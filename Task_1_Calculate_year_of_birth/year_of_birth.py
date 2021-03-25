@@ -1,8 +1,6 @@
 # Create a program that calculates the year of birth of a user
 import datetime
 
-# Get the current year
-current_year = datetime.datetime.now().year
 
 name = input("Please enter your name:\n")  # Get the users name
 
@@ -13,6 +11,8 @@ while not age.isdigit():
 
 age = int(age)  # cast to in for math operations
 
+# Get the current year
+current_year = datetime.datetime.now().year
 # Subtract age from year to get the year of birth
 year = current_year - age
 

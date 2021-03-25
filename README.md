@@ -2,7 +2,7 @@
 
 ## 01 - Program that calculates year of birth!
 Cool, we've used strings to make a program that made a welcome message. Now let's use some numerical types.  
-Create program that calculates the year of birth.
+Create a program that calculates the year of birth.
 
 ### Part one:
 * Define the variables `age` and `name`
@@ -22,8 +22,7 @@ Create program that calculates the year of birth.
 * Program defines the variable `age` and `name`
 * Program prints the string "OMG <person>, you are <age> years old, so you were born in <year>"
 
---------------------------------------------------------
-
+------------------------------------------------
 ## 02 - A Restaurant Waiter Helper program
 
 ### Summary
@@ -42,7 +41,7 @@ Using the following **User stories**, create a program that fulfills all the req
 * Have proper documentation (readme)
 * follows best practices
 
-----------------------------------------------------------
+------------------------------------------------
 ## 03 - Xmas Holiday List that never ends!
 Amazing, you've learned about for loops!
 Time to use that, plus a while loop to keep things going!
@@ -67,7 +66,7 @@ User stories:
 * All user stories are completed
 * Has documentation
 
-----------------------------------------------------------
+------------------------------------------------
 ## 04 - Fizz Buzz!
 Super simple game that will substitute multiples of 3 and 5 for fizz and buzz respectively, or fizzbuzz for multiples of both.
 
@@ -125,7 +124,7 @@ Hint: do one function at a time and use my structure for the running the functio
 * Separation of concerns if followed
 * DRY code and functions  
 
-----------------------------------------------
+------------------------------------------------
 ## 06 - Loops and lists
 Let's loop over some lists!
 
@@ -139,4 +138,4 @@ Let's loop over some lists!
 ### Acceptance Criteria
 * All tasks are completed
 
----------------------------------------------------------------- 
+------------------------------------------------
