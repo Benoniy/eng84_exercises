@@ -1,6 +1,6 @@
 # Restaurant waiter helper
 ### Tasks:
-* To fulfill user requirement 1 I created a function that when called, prints a nicely formatted menu.
+1. To fulfill user requirement 1 I created a function that when called, prints a nicely formatted menu.
 ```python
 # A dictionary that contains all the items a customer can order
 menu = {1: {"name": "Burger", "price": 3.0},

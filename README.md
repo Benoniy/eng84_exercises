@@ -77,7 +77,7 @@ Super simple game that will substitute multiples of 3 and 5 for fizz and buzz re
 * For numbers which are multiples of both three and five print "FizzBuzz".
 
 ### Extra:
-* Make a second fizzbuzz file and make it functional
+* Make a second fizzbuzz file and make it use functions
 * In the second file make so that we can decide which numbers to substitute for fizz and buzz using functions
 
 Hint: loop, range, control flow
