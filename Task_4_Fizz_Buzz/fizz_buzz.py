@@ -1,35 +1,42 @@
-fizz = 3
-buzz = 5
+fizz = 3  # holds value for fizz
+buzz = 5  # holds value for buzz
 
 
+# Returns true if a number is fizz
 def is_fizz(num):
     return num % fizz == 0
 
 
+# Returns true if a number is buzz
 def is_buzz(num):
     return num % buzz == 0
 
 
-def run():
+# Generates 1 to 100 and enacts methods to change numbers to fizz, buzz and fizzbuzz accordingly
+def run_fizzbuzz():
     for num in range(1, 101, 1):
-        if is_fizz(num) and is_buzz(num):
+        if is_fizz(num) and is_buzz(num):  # If number is fizz and buzz
             print("FizzBuzz")
-        elif is_fizz(num):
+        elif is_fizz(num):  # Or if number is only fizz
             print("Fizz")
-        elif is_buzz(num):
+        elif is_buzz(num):  # Or if number is only buzz
             print("Buzz")
-        else:
+        else:  # Or if number is none of the above
             print(num)
 
 
-fizz = input("please enter fizz: ")
-while not fizz.isdigit():
-    fizz = input("please enter fizz as a digit: ")
-fizz = int(fizz)
+if __name__ == "__main__":
+    # This allows the user to change the value of fizz
+    fizz = input("please enter fizz: ")
+    while not fizz.isdigit():
+        fizz = input("please enter fizz as a digit: ")
+    fizz = int(fizz)
 
-buzz = input("please enter buzz: ")
-while not buzz.isdigit():
-    buzz = input("please enter buzz as a digit: ")
-buzz = int(buzz)
+    # This allows the user change the value of buzz
+    buzz = input("please enter buzz: ")
+    while not buzz.isdigit():
+        buzz = input("please enter buzz as a digit: ")
+    buzz = int(buzz)
 
-run()
+    # Run fizz buzz
+    run_fizzbuzz()
