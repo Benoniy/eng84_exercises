@@ -14,7 +14,7 @@ Extra:
 Hint: loop, range, control flow
 
 ### Solutions:
-1. Completing all of the requirements for part one was simple, I created it in [fizz_buzz.py]().
+1. Completing all of the requirements for part one was simple, I created it in [fizz_buzz.py](https://github.com/Benoniy/eng84_exercises/blob/main/Task_4_Fizz_Buzz/fizz_buzz.py).
     * I completed task one by using a for loop to run through 100 numbers.  
     `for num in range(1, 101, 1):`
     * I completed task two, three and four by using an if statement and modulus to find if numbers where divisible by fizz, buzz or both.  
@@ -33,4 +33,4 @@ for num in range(1, 101, 1):  # Loop through 100 numbers
     else:  # Or if number is none of the above
         print(num)
 ```  
-2. I went on to complete the extra tasks too, I completed them in [fizz_buzz_functions]().
+2. I went on to complete the extra tasks too, I completed them in [fizz_buzz_functions.py](https://github.com/Benoniy/eng84_exercises/blob/main/Task_4_Fizz_Buzz/fizz_buzz_functions.py).  
