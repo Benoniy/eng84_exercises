@@ -14,9 +14,6 @@ def print_menu():
         print(f"{item_no}: {content['name']} £{content['price']}")
 
 
-# A list that stored the customers ordered items
-order = []
-
 # This function prints orders by pulling the item numbers from the list
 # and using them to reference values in the menu dictionary
 def print_order():
@@ -28,7 +25,10 @@ def print_order():
     print(f"Total = £{total}\n")
 
 
-print_menu()
+print_menu()  # Initial print of the menu
+
+# A list that stores the customers ordered items
+order = []
 
 # This controls user input
 print("\n")
