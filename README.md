@@ -133,7 +133,7 @@ Let's loop over some lists!
 * Make a for loop using range() that prints hello 10 times
 * Create another for loop using range that asks the user for names and appends it to a list called list_names
 * Make a loop that iterates over each name in list_names and format's so that each name is lowercase, then add these names to a new list called list_names_lower
-* Iterate over the list of values to find if the are even ### No clue what this is asking for
+* Iterate over a list of values and display if they are odd or even 
 
 ### Acceptance Criteria
 * All tasks are completed
