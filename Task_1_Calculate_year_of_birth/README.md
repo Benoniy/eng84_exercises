@@ -1,5 +1,20 @@
 # Calculate the year of birth of a user  
 ### Tasks:
+Part one:
+* Define the variables `age` and `name`
+* Using `age` calculate the year in which the user was born
+* Print out "OMG [person], you are [age] years old, so you were born in [year]" with the correct values
+
+Part two:
+* Prompt the user to input values for the variables `age` and `name`
+* Check the user's input to make sure it is correct (age must be a number)
+* Figure out a way to account for if the user's birthday has already happened this year or not
+
+Extra:
+* Go look into the library time
+* Print out how long this person has lived in hours
+
+### Solutions:
 1. To calculate the user's date of birth I first declared the variables `age` and `name`
 ```python
 name = input("Please enter your name:\n")  # Get the users name
