@@ -1,30 +1,38 @@
-import math
+import math  # Imported for use in area of a circle function
 
 
+# This function is for adding num2 to num1
 def add_function(num1, num2):
     return num1 + num2
 
 
+# This function is for subtracting num2 from num1
 def sub_function(num1, num2):
     return num1 - num2
 
 
+# This function is for multiplying num1 by num2
 def mult_function(num1, num2):
     return num1 * num2
 
 
+# This function is for dividing num1 by num2
 def div_function(num1, num2):
     return num1 / num2
 
 
+# This function is for finding the area of a circle
+# It uses the math package to import an accurate value for PI
 def area_circle_function(radius):
     return mult_function(math.pi, radius) ** 2
 
 
+# This function is for finding the area of a square
 def area_square_function(height, width):
     return mult_function(height, width)
 
 
+# This function is for finding the area of a right angle triangle
 def area_right_angle_triangle_function(side_a, side_b):
     return div_function(mult_function(side_a, side_b), 2)
 
